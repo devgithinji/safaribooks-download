@@ -208,7 +208,7 @@ class Display:
                        "    `" + SAFARI_BASE_URL + "/library/view/book-name/XXXXXXXXXXXXX/`"
 
         else:
-            os.remove(COOKIES_FILE)
+            # os.remove(COOKIES_FILE)
             message += "Out-of-Session%s.\n" % (" (%s)" % response["detail"]) if "detail" in response else "" + \
                        Display.SH_YELLOW + "[+]" + Display.SH_DEFAULT + \
                        " Use the `--cred` or `--login` options in order to perform the auth login to Safari."
