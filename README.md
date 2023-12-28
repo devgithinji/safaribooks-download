@@ -162,7 +162,10 @@ In this case, I suggest you to convert the `EPUB` to `AZW3` with Calibre or to `
     ![NoKindle Option](https://github.com/lorenzodifuccia/cloudflare/raw/master/Images/safaribooks/safaribooks_example02_NoKindle.png "Version compare")  
     
 ---  
-  
+
+To download many books list them in the download_books.sh file and run the script 
+
+--- 
 ## Thanks!!
 For any kind of problem, please don't hesitate to open an issue here on *GitHub*.  
   
